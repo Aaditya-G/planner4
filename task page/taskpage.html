@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="taskpage.css">
+    <body>
+        <div class = "container">
+            <nav> 
+                <a href="file:///E:/todo/planner3/index.html"><img src="logf.png" class="logo"></a>
+                <ul>
+                <li ><a href="registration page/reg.html">Register/Login</a></1i>
+                <li ><a href="contact page/contact.html">Contact</a></1i>
+                <li ><a href="E:\todo\planner3\about us page\aboutus.html">About-us</a></1i>
+                </ul>
+                </nav>
+               
+		<section class="greeting">
+			<h2 class="title">
+				<span class="k">What's up,</span> <input type="text" id="name" placeholder="Name here" />
+			</h2>
+		</section>
+		
+		<!-- New Todo -->
+		<section class="create-todo">
+			<form id="new-todo-form">
+				<h4>What's on your list today?</h4>
+				<input 
+					type="text" 
+					placeholder="e.g. Win Syntax Error"
+					name="content"
+					id="content" />
+				
+				<h4>Pick a category</h4>
+				<div class="options">
+					<label>
+						<input type="radio" name="category" id="category1" value="Academics" /> 
+						<span class="bubble Academics"></span>
+						<div>Academics</div>
+					</label>
+					<label>
+						<input type="radio" name="category" id="category2" value="personal" />
+						<span class="bubble personal"></span>
+						<div>Personal</div>
+					</label>
+				</div>
+
+				<input type="submit" value="Add todo" />
+			</form>
+		</section>
+		<!-- End of New Todo -->
+
+		<!-- Todo List -->
+		<section class="todo-list">
+			<h3>TODO LIST</h3>
+			<div class="list" id="todo-list"></div>
+		</section>
+		<!-- End of Todo List -->
+
+	<!-- End of App Wrapper -->
+            </div>
+		
+
+	<!-- JS Import -->
+	<script src="taskpage.js"></script>
+
+        </div>
+    </body>
+</html>
