@@ -18,7 +18,7 @@ body
 .box 
 {
 	position: relative;
-	width: 460px;
+	width: 440px;
 	height: 400px;
 	background: #1c1c1c;
 	border-radius: 8px;
@@ -170,4 +170,8 @@ input[type="submit"]
 input[type="submit"]:active 
 {
 	opacity: 0.8;
+}
+img{
+	padding-top: 5px;
+	border-radius: 50%;
 }
